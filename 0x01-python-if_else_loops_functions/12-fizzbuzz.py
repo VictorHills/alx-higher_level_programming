@@ -4,8 +4,8 @@
   For multiles of five, print Buzz instead of the number
   For mulltiples of three and five, print FizzBuz insteead of the number"""
 
-def fizbuzz():
-    for number in range(1, 100):
+def fizzbuzz():
+    for number in range(1, 101):
         if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz ", end="")
         elif number % 3 == 0:
