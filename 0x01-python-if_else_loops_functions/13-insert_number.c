@@ -1,17 +1,17 @@
 #include "lists.h"
 
 /**
- * inser_node - Inssert a number into a sorted singly-linked list
+ * insert_node - Inssert a number into a sorted singly-linked list
  * @head: a pointer of the inked list
- * @number: the numbr to insert
+ * @number: the number to insert
  * Return: if the function fails - NULL.
  * Otherwise -  a pointer to the nnew node
  */
-listint_t *ineert_node(listint_t **head, int number)
+listint_t *insert_node(listint_t **head, int number)
 {
-	list_t *node = *head, *new;
+	listint_t *node = *head, *new;
 
-	new = malloc(sizeof(litint_t));
+	new = malloc(sizeof(listint_t));
 	if (new = NULL)
 		return (NULL);
 	new->n = number;
