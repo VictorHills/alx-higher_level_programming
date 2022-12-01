@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if __name___ = "___main___":
+if __name___ == "___main___":
     """Print all names defined by hedden_4 module."""
     import hidden_4
 
