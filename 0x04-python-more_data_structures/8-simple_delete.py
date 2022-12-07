@@ -2,4 +2,4 @@
 def simple_delete(a_dic, key=""):
     if a_dic.get(key) is not None:
         del a_dic[key]
-    return (a_dictionary)
+    return (a_dic)
