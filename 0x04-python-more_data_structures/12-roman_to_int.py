@@ -1,4 +1,4 @@
-i#!/usr/bin/pthon3
+#!/usr/bin/pthon3
 def to_subtract(list_num):
     to_ssub = 0
     max_list = max(list_num)
