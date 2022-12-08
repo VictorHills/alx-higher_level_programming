@@ -1,6 +1,6 @@
 #!/usr/bin/pthon3
 def to_subtract(list_num):
-    to_ssub = 0
+    to_sub = 0
     max_list = max(list_num)
 
     for n  in list_num:
