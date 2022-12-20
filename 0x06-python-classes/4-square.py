@@ -9,7 +9,7 @@ class Square:
         """Initialize a new square.
 
         Args:
-            sizdee (int): The size of the new square.
+            size (int): The size of the new square.
         """
         self.size = size
 
@@ -27,4 +27,5 @@ class Square:
         self.__size = value
 
     def area(self):
+        """Return the currnet area of the square"""
         return (self.__size * self.__size)
