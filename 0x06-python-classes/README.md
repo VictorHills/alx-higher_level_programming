@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x06. Python - Classes and Objects
 
 0. My first square
@@ -21,3 +22,6 @@
 9. Compare 2 squares
 
 10. ByteCode -> Python #5
+=======
+trial
+>>>>>>> 0a0e81f61b1af4ff2c41eefc221ccc71a1a69077
